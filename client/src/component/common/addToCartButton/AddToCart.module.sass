@@ -1,0 +1,60 @@
+$mainColor:  #fcc204
+
+.but
+    font-weight: 500
+    color: white
+    // line-height: 50%
+    text-decoration: none
+    padding: .8em 1em calc(.8em + 3px)
+    border-radius: 3px
+    background: $mainColor
+    box-shadow: 0 -3px #e0b320 inset
+    transition: 0.2s
+
+    &:hover
+        background: #e0b320
+    &:active
+        background: #9e7e14
+        box-shadow: 0 3px #866c13 inset
+
+.modal
+    position: absolute
+    left: 40%
+    top: 20%
+    width: 40%
+    background: white
+    border: 1px solid  #ccc
+    transition: 1.1s ease-out
+    box-shadow: -1rem 1rem 2rem #999895
+    filter: blur(0)
+    transform: scale(1)
+    opacity: 1
+    visibility: visible
+    h2
+        text-align: center
+    .content
+        font-weight: 600
+        text-align: center
+    .allBut
+        text-align: center
+    .buto
+        
+        font-weight: 500
+        color: white
+        text-decoration: none
+        padding: .8em 1em calc(.8em + 3px)
+        border-radius: 3px
+        background: $mainColor
+        box-shadow: 0 -3px #e0b320 inset
+        transition: 0.2s
+        margin: 10px
+        a
+            text-decoration: none
+            font-weight: 500
+            color: white
+
+        &:hover
+            background: #e0b320
+        &:active
+            background: #9e7e14
+            box-shadow: 0 3px #866c13 inset

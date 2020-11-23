@@ -1,0 +1,58 @@
+$mainColor:  #fcc204
+
+.field
+    display: grid
+    grid-template-columns: 1fr 2fr 1fr
+
+    img
+        height: 10vh
+
+.all
+    display: grid
+    grid-template-columns: 1fr 1fr
+.order
+    display: grid
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr
+    margin-bottom: 5%
+    .name
+        text-align: left
+        font-size: 150%
+    .price
+        text-align: right
+        font-weight: 500
+    .deleteItem
+        height: 5vh
+
+        &:active
+            background: #9e7e14
+            box-shadow: 0 3px #866c13 inset
+
+.but
+    font-weight: 700
+    color: white
+    text-decoration: none
+    padding: .8em 1em calc(.8em + 3px)
+    border-radius: 3px
+    background: $mainColor
+    box-shadow: 0 -3px #e0b320 inset
+    transition: 0.2s
+
+    &:hover
+        background: #e0b320
+        &:active
+            background: #9e7e14
+            box-shadow: 0 3px #866c13 inset
+
+.count
+    width: 15%
+    border: none
+    text-align: center
+.btn
+    background-color: $mainColor
+    border-radius: 3px
+    &:hover
+        background: #e0b320
+        &:active
+            background: #9e7e14
+
+
